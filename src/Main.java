@@ -21,6 +21,13 @@ public class Main {
         }
         System.out.println();
 
+        //task #4
+        for (int i = 10; i >= -10; i--) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
+
 
     }
 }
