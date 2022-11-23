@@ -39,5 +39,11 @@ public class Main {
         }
         System.out.println();
 
+        //task #2.3
+        for (int i = 1; i <= 512; i = i + i) {
+            System.out.print(i + " ") ;
+        }
+        System.out.println();
+
     }
 }
