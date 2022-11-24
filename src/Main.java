@@ -50,7 +50,19 @@ public class Main {
         int total = 0;
         for (int i = 1; i <=12; i++) {
             total = total + saving;
-            System.out.println("Месяц " + i + "-ый сумма накоплений равна " + total + "рублей");
+            System.out.println("Месяц " + i + "-й, сумма накоплений равна " + total + " рублей");
+        }
+        System.out.println();
+
+        //task #3.2
+        saving = 29000;
+        double $total = 0;
+        for (int i = 1; i <=12; i++) {
+            $total = $total + saving;
+            double d = $total * 100;
+            double b = (int) d;
+            System.out.println("Месяц " + i + "-й, сумма накоплений равна " + b / 100 + " рублей");
+            $total = $total * 1.01;
         }
         System.out.println();
 
