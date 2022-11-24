@@ -45,5 +45,16 @@ public class Main {
         }
         System.out.println();
 
+        //task #3.1
+        int saving = 29000;
+        int total = 0;
+        for (int i = 1; i <=12; i++) {
+            total = total + saving;
+            System.out.println("Месяц " + i + "-ый сумма накоплений равна " + total + "рублей");
+        }
+        System.out.println();
+
+
+
     }
 }
